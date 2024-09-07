@@ -1,4 +1,4 @@
-allow * tmpfs * *
+allow zygote tmpfs file *
 allow zygote appdomain_tmpfs dir *
 allow zygote appdomain_tmpfs file *
 
